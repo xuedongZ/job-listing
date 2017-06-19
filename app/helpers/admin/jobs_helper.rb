@@ -3,7 +3,7 @@ module Admin::JobsHelper
     if job.is_hidden
       "(Hidden)"
     else
-      "(Public)"\
+      "(Public)"
     end
   end
 end
